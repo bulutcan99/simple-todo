@@ -62,7 +62,7 @@ fn main() {
 				println!("You did not mark the todo as done!");
 			}
 			_ => {
-				println!("Invalid input. Try again!");
+				println!("Invalid input. Try again please!");
 			}
 		}
 
