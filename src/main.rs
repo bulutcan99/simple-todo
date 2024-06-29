@@ -24,7 +24,7 @@ impl TodoFile {
 }
 
 fn main() {
-	let username = String::from("bulut");
+	let username = String::from("bulutcan");
 	let file_name = format!("{}.txt", username);
 	let mut file = TodoFile::new(&file_name).unwrap();
 
